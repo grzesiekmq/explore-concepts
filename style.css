@@ -1,0 +1,77 @@
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: #111;
+}
+
+#toc a {
+  background: #222;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Arial, Helvetica;
+}
+
+#toc a:hover {
+  background: #00a380;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin: 18px;
+}
+
+li a button {
+  background: #222;
+  color: white;
+  padding: 15px;
+  font-family: Arial, Helvetica;
+  border: 1px solid #333;
+  font-size: x-large;
+  border-radius: 1px;
+}
+
+li a:hover button {
+  color: white;
+  background: #00a380;
+}
+
+h1 {
+  color: white;
+}
+
+hr {
+  border: 1px solid #00a380;
+}
+
+#toc {
+  position: sticky;
+  top: 8px;
+  text-align: center;
+}
+
+div#toc p {
+  display: inline;
+  padding: 0px 13px;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: xx-large;
+}
+
+.description {
+  color: #bbb;
+  font-size: larger;
+}
+
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}

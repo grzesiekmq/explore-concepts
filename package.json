@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@nlpjs/similarity": "^5.0.0-alpha.5",
+    "all-package-names": "^2.0.897",
+    "all-the-package-names": "^2.0.2075",
+    "api-npm": "^1.0.0",
+    "js-combinatorics": "^2.1.2",
+    "pos": "^0.4.2",
+    "progressbar.js": "^1.1.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
